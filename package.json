@@ -2,7 +2,7 @@
   "name": "planty-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://DarrenJian1.github.io/planty",
+  "homepage": "https://darrenjian1.github.io/Planty/",
   "dependencies": {
     "-": "0.0.1",
     "@ant-design/icons": "^4.2.2",
