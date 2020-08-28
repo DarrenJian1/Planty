@@ -1,38 +1,282 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  overflow: hidden;
+  background-color: #cef9e0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  font-family: Arial, Helvetic, sans-serif;
+  line-height: 1.4;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+}
+
+.container_custom {
+  /* margin:  0 1rem;
+  touch-action: none; */
+}
+
+.btn_custom {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+
+.btn_custom:hover {
+  background: #666
+}
+
+.content {
+  background-color: #cef9e0;
+  padding: 0 ;
+}
+
+/* .plantParent {
+  position: absolute;
+  -webkit-overflow-scrolling: touch;
+  height: 400px;
+  overflow-y: scroll;
+} */
+
+/* #deletePlantButton {
+  visibility: hidden;
+} */
+
+#hidden {
+  display: hidden;
+}
+
+.hiding {
+  visibility: hidden !important;
+  /* transform: rotate(180deg); */
+}
+
+.plantParent{
+  /* max-height: 500px; */
+  overflow-y:scroll;
+  /* border: solid green; */
+  margin: 0;
+}
+
+.plants{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #cef9e0;
+  /* border: solid;
+  width: 90%;
+  margin: 0 auto; */
+  /* max-height: 500px;
+  overflow-y: scroll; */
+  
+}
+
+#main .icon {
+  border: none;
+  padding: 0;
+  margin: 0;
+  animation-delay: -1s;
+  animation-duration: 1s;
+}
+
+#main .icon:nth-child(2n) {
+  animation-name: keyframes1;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 10%;
+}
+
+#main .icon:nth-child(2n-1) {
+  animation-name: keyframes2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform-origin: 40% 40%;
+}
+
+@keyframes keyframes1 {
+  0% {
+    transform: rotate(-50deg);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: rotate(50deg);
+    animation-timing-function: ease-out;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@keyframes keyframes2 {
+  0% {
+    transform: rotate(10deg);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+    animation-timing-function: ease-out;
+  }
+}
+
+#addPlant::placeholder {
+  opacity: .5;
+}
+
+input::placeholder {
+  color:black;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+.modal_custom {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.25);
+}
+
+.modal_content_custom {
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 80%;
+  border-radius: 5px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: -40%;
+  margin-top:-10%;
+  padding: 10px;
+}
+
+
+.popupDate {
+  height: 30px;
+  border: solid 1px;
+  border-radius: 4px;
+  background: transparent;
+  text-align: center;
+  min-width: 150px;
+}
+
+.close {
+  color: Black;
+  background: 'none';
+  border: 'none';
+  padding: '0px';
+  margin: '0px';
+  cursor: 'pointer';
+  position: 'relative';
+  left: '200px';
+  bottom: '20px';
+  font-size: '15px';
+}
+
+.close:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #5A4181;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #8dddbe !Important;
+    border: solid 1px #8dddbe !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #8dddbe !Important;
+    border: solid 1px #8dddbe;
+}
+
+.dolwForm {
+  width: 62px;
+  padding: 2px 1px;
+  margin-top: 4px;
+  left: 5px;
+  background-color: transparent;
+  background-repeat: noRepeat;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  border: 1px solid #000;
+  display: block;
+  font-size: 10px;
+}
+
+.addPopupForm {
+  background: transparent;
+  width: 50%;
+  border: solid black 1px;
+  text-align: left;
+  height: 4vh;
+  line-height: 5vh;
+  padding: 0 2px;
+  margin-left: 10%;
+}
+
+/* Tab Bar Ant Design */
+.am-tab-bar-bar {
+  height: 60px;
+  padding-bottom: 10px;
+}
+
+#tab-bar.demo {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#tab-bar .demoName {
+  height: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
 }
+#bodybody {
+  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+}
+.highlightTab {
+  color: rgb(0, 140, 255);
+}
+/**********************************/
