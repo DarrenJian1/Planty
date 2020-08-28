@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/planty/static/css/main.ff3c4616.chunk.css",
-    "main.js": "/planty/static/js/main.7835c037.chunk.js",
-    "main.js.map": "/planty/static/js/main.7835c037.chunk.js.map",
-    "runtime-main.js": "/planty/static/js/runtime-main.07e41b64.js",
-    "runtime-main.js.map": "/planty/static/js/runtime-main.07e41b64.js.map",
-    "static/css/2.e5db91d3.chunk.css": "/planty/static/css/2.e5db91d3.chunk.css",
-    "static/js/2.0c7ff5bf.chunk.js": "/planty/static/js/2.0c7ff5bf.chunk.js",
-    "static/js/2.0c7ff5bf.chunk.js.map": "/planty/static/js/2.0c7ff5bf.chunk.js.map",
-    "index.html": "/planty/index.html",
-    "precache-manifest.419960f9fbffd5270f33552b8e917ab7.js": "/planty/precache-manifest.419960f9fbffd5270f33552b8e917ab7.js",
-    "service-worker.js": "/planty/service-worker.js",
-    "static/css/2.e5db91d3.chunk.css.map": "/planty/static/css/2.e5db91d3.chunk.css.map",
-    "static/css/main.ff3c4616.chunk.css.map": "/planty/static/css/main.ff3c4616.chunk.css.map",
-    "static/js/2.0c7ff5bf.chunk.js.LICENSE.txt": "/planty/static/js/2.0c7ff5bf.chunk.js.LICENSE.txt",
-    "static/media/LeafyIcon.png": "/planty/static/media/LeafyIcon.e793a57f.png",
-    "static/media/Untitled_Artwork 6.png": "/planty/static/media/Untitled_Artwork 6.75ec810c.png"
+    "main.css": "/Planty/static/css/main.ff3c4616.chunk.css",
+    "main.js": "/Planty/static/js/main.3d6876ce.chunk.js",
+    "main.js.map": "/Planty/static/js/main.3d6876ce.chunk.js.map",
+    "runtime-main.js": "/Planty/static/js/runtime-main.a8942eac.js",
+    "runtime-main.js.map": "/Planty/static/js/runtime-main.a8942eac.js.map",
+    "static/css/2.e5db91d3.chunk.css": "/Planty/static/css/2.e5db91d3.chunk.css",
+    "static/js/2.0c7ff5bf.chunk.js": "/Planty/static/js/2.0c7ff5bf.chunk.js",
+    "static/js/2.0c7ff5bf.chunk.js.map": "/Planty/static/js/2.0c7ff5bf.chunk.js.map",
+    "index.html": "/Planty/index.html",
+    "precache-manifest.7af44b946c2e8e867ff703b5f9faa760.js": "/Planty/precache-manifest.7af44b946c2e8e867ff703b5f9faa760.js",
+    "service-worker.js": "/Planty/service-worker.js",
+    "static/css/2.e5db91d3.chunk.css.map": "/Planty/static/css/2.e5db91d3.chunk.css.map",
+    "static/css/main.ff3c4616.chunk.css.map": "/Planty/static/css/main.ff3c4616.chunk.css.map",
+    "static/js/2.0c7ff5bf.chunk.js.LICENSE.txt": "/Planty/static/js/2.0c7ff5bf.chunk.js.LICENSE.txt",
+    "static/media/LeafyIcon.png": "/Planty/static/media/LeafyIcon.e793a57f.png",
+    "static/media/Untitled_Artwork 6.png": "/Planty/static/media/Untitled_Artwork 6.75ec810c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.07e41b64.js",
+    "static/js/runtime-main.a8942eac.js",
     "static/css/2.e5db91d3.chunk.css",
     "static/js/2.0c7ff5bf.chunk.js",
     "static/css/main.ff3c4616.chunk.css",
-    "static/js/main.7835c037.chunk.js"
+    "static/js/main.3d6876ce.chunk.js"
   ]
 }
