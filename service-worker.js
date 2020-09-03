@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Planty/precache-manifest.0a7dedc455f4dcfd2c831b301d4b759e.js"
+  "/Planty/precache-manifest.a47e26b400fec8b762d4f62905618b66.js"
 );
 
 self.addEventListener('message', (event) => {
