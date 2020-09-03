@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b82774991d951793e2ea6fbf0bb0d479",
+    "revision": "25f0512fe5ec6b0a3b9d5986dc089d21",
     "url": "/Planty/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Planty/static/css/2.c6254ddc.chunk.css"
   },
   {
-    "revision": "101d8db1023aca73b999",
+    "revision": "5c3f74b7bae631d3eea2",
     "url": "/Planty/static/css/main.0dba27b2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Planty/static/js/2.71edb722.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "101d8db1023aca73b999",
-    "url": "/Planty/static/js/main.b0897858.chunk.js"
+    "revision": "5c3f74b7bae631d3eea2",
+    "url": "/Planty/static/js/main.0390ade9.chunk.js"
   },
   {
     "revision": "b635d8c47aa2ccaa8944",
